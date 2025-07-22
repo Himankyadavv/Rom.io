@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Load .env.local from project root
-dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 console.log(process.env.GEMINI_API_KEY);
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY) || "not set";
