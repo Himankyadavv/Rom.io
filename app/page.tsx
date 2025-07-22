@@ -66,6 +66,7 @@ function Header() {
           </svg>
           Sign In
         </button>
+        sarthak choudhary
       </div>
 
       {/* Mobile Menu Icon (Placeholder) */}
